@@ -1,1 +1,1 @@
-console.log('test');
+let app = require('express')()
