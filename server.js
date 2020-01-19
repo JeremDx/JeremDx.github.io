@@ -1,7 +1,7 @@
 let app = require('express')()
 
 app.get('/', (req, res) => {
-    res.send('index.ejs');
+    res.render('index.ejs');
 })
 
 app.listen(8080)
