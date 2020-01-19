@@ -1,7 +1,40 @@
 body {
-    background: url(assets/wall.jpg);
-    background-size: contain;
+
+    background-image: url(assets/wall.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 0;
 
+}
+header {
+    height: 100px;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 50px;
+
+
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:active {
+    font-size: 50px;
+    color: #e8eae3;
+    outline: none;
+    text-decoration: none;
+}   
+a:hover {
+    padding-top: 3px;
+    color:white;
+    outline: none;
+    text-decoration: none;
 }
