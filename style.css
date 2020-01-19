@@ -1,4 +1,7 @@
 body {
+    background: url(/assets/wall.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 0;
 
 }
