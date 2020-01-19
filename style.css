@@ -1,3 +1,9 @@
 body {
-    background: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Cube-Math-HD-Wallpaper.pngwall.png) center;
+    padding: 0;
+
+}
+
+div#conteneur {
+
+    background: url(wall.png) center
 }
