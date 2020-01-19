@@ -14,15 +14,42 @@
 
     <header>
 
-        aw2
     </header>
 
     <nav>
-        <a href="#" class="nav-button"> Login</a>
-        <a href="#" class="nav-button"> Start </a>
-        <a href="#" class="nav-button"> Credit </a> 
+        <a href="#" class="nav-button" id="btn1"> Login</a>
+        <a href="#" onclick='move()' class="nav-button" id="btn2"> Start </a>
+        <a href="#" class="nav-button" id="btn3"> Credit </a> 
+
     </nav>
+
+    <div>
+        
+
+    </div>
 </div>
 
+
+<script>
+
+function move() {
+    var elem1 = document.getElementById("btn1");
+    var elem2 = document.getElementById("btn2");
+    var elem3 = document.getElementById("btn3");
+    var pos = 0
+    var id = setInterval(frame, 10);
+    function frame() {
+        if (pos == 100) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem1.style.bottom = pos + "px";
+            elem2.style.bottom = pos + "px";
+            elem3.style.bottom = pos + "px";
+        }
+    }
+}    
+
+</script>
 </body>
 </html>
