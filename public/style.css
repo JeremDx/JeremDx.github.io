@@ -5,15 +5,17 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 0;
+    background-blend-mode:luminosity;
+
 
 }
+
 header {
     height: 100px;
 
 }
 
 nav {
-
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -22,17 +24,19 @@ nav {
 
 }
 
-a,
-a:link,
-a:visited,
-a:focus,
-a:active {
+
+.nav-button,
+.nav-button:link,
+.nav-button:visited,
+.nav-button:focus,
+.nav-button:active {
+    position: relative;
     font-size: 50px;
     color: #e8eae3;
     outline: none;
     text-decoration: none;
 }   
-a:hover {
+.nav-button:hover {
     padding-top: 3px;
     color:white;
     outline: none;
